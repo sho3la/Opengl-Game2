@@ -1,0 +1,56 @@
+﻿Build started 08/05/2017 10:04:53 م.
+     1>Project "C:\Users\sho3lan\Downloads\3dMaze\GraphicsProject.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp
+         Game.cpp
+     1>c:\users\sho3lan\downloads\3dmaze\skybox.h(30): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\sho3lan\downloads\3dmaze\skybox.h(74): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\sho3lan\downloads\3dmaze\skybox.h(76): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\sho3lan\downloads\3dmaze\skybox.h(79): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\sho3lan\downloads\3dmaze\skybox.h(81): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\sho3lan\downloads\3dmaze\skybox.h(84): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\sho3lan\downloads\3dmaze\skybox.h(86): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\sho3lan\downloads\3dmaze\game.cpp(80): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\sho3lan\downloads\3dmaze\game.cpp(81): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\sho3lan\downloads\3dmaze\game.cpp(117): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sho3lan\downloads\3dmaze\game.cpp(180): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\sho3lan\downloads\3dmaze\game.cpp(182): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\sho3lan\downloads\3dmaze\game.cpp(184): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\sho3lan\downloads\3dmaze\game.cpp(186): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\sho3lan\downloads\3dmaze\game.cpp(219): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\sho3lan\downloads\3dmaze\game.cpp(221): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\sho3lan\downloads\3dmaze\game.cpp(225): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\sho3lan\downloads\3dmaze\game.cpp(227): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\sho3lan\downloads\3dmaze\game.cpp(231): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\sho3lan\downloads\3dmaze\game.cpp(233): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\sho3lan\downloads\3dmaze\game.cpp(237): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\sho3lan\downloads\3dmaze\game.cpp(239): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\sho3lan\downloads\3dmaze\game.cpp(255): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\sho3lan\downloads\3dmaze\game.cpp(288): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sho3lan\downloads\3dmaze\game.cpp(289): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\sho3lan\Downloads\3dMaze\Debug\GraphicsProject.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\sho3lan\Downloads\3dMaze\Debug\GraphicsProject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\sho3lan\Downloads\3dMaze\Debug\GraphicsProject.lib" /MACHINE:X86 Debug\Application.obj
+         Debug\Cube.obj
+         Debug\EulerCamera.obj
+         Debug\Game.obj
+         Debug\GameObject.obj
+         Debug\Ground.obj
+         Debug\Helper.obj
+         Debug\KeyFrameAnimationShader.obj
+         Debug\md2model.obj
+         Debug\Mesh.obj
+         Debug\PointLight.obj
+         Debug\Shader.obj
+         Debug\ShaderProgram.obj
+         Debug\Source.obj
+         Debug\stb_image.obj
+         Debug\Texture.obj
+         Debug\TextureCube.obj
+         Debug\vertexBufferObject.obj
+         GraphicsProject.vcxproj -> C:\Users\sho3lan\Downloads\3dMaze\Debug\GraphicsProject.exe
+     1>Done Building Project "C:\Users\sho3lan\Downloads\3dMaze\GraphicsProject.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.17
